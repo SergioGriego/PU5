@@ -1,0 +1,36 @@
+.fondoLogin{
+ -fx-background-color: linear-gradient(from 250px 500px to 100px 100px, #2E4052, #BDD9BF);
+}
+.fondoNewton{
+ -fx-background-color: linear-gradient(from 250px 500px to 100px 100px, #4ea8de, #56cfe1);
+}
+.fondoLagrange{
+ -fx-background-color: linear-gradient(from 250px 500px to 100px 100px, #6930c3, #5e60ce);
+}
+.boton{
+-fx-background-image: url("./imagenes/calculadora.png");
+-fx-background-color: linear-gradient(from 250px 500px to 100px 100px, #2E4052, #BDD9BF);
+-fx-background-radius: 10px;
+-fx-background-size: cover;
+}
+.textfields{
+ -fx-background-radius: 5px;
+}
+.botonsalir{
+-fx-background-image: url("./imagenes/salir.png");
+-fx-background-color: linear-gradient(from 250px 500px to 100px 100px, #2E4052, #BDD9BF);
+-fx-background-radius: 10px;
+-fx-background-size: cover;
+}
+.botonadd{
+-fx-background-image: url("./imagenes/plus.png");
+-fx-background-color: linear-gradient(from 250px 500px to 100px 100px, #2E4052, #BDD9BF);
+-fx-background-radius: 10px;
+-fx-background-size: cover;
+}
+.botongrafica{
+-fx-background-image: url("./imagenes/grafica.png");
+-fx-background-color: linear-gradient(from 250px 500px to 100px 100px, #2E4052, #BDD9BF);
+-fx-background-radius: 10px;
+-fx-background-size: cover;
+}

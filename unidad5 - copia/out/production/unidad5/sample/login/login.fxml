@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.login.Login">
+   <children>
+      <Pane layoutX="16.0" layoutY="15.0" prefHeight="470.0" prefWidth="470.0" style="-fx-background-radius: 10px;" styleClass="fondoLogin" stylesheets="@../estilos.css">
+         <children>
+            <Button layoutX="21.0" layoutY="222.0" mnemonicParsing="false" onAction="#c" prefHeight="100.0" prefWidth="200.0" style="-fx-background-radius: 10px;" styleClass="fondoLogin" text="Interpolación de Newton">
+               <font>
+                  <Font name="Bodoni MT Bold" size="16.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#750000" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Button>
+            <Button layoutX="249.0" layoutY="222.0" mnemonicParsing="false" onAction="#ca" prefHeight="100.0" prefWidth="200.0" style="-fx-background-radius: 10px;" styleClass="fondoLogin" text="Interpolación de Lagrange">
+               <font>
+                  <Font name="Bodoni MT Bold" size="16.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#750000" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Button>
+            <Label layoutX="42.0" layoutY="35.0" text="MÉTODOS DE INTERPOLACIÓN">
+               <font>
+                  <Font name="Bodoni MT Bold" size="26.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#750000" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

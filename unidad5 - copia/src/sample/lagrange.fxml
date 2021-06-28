@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Lagrange">
+   <children>
+      <Pane layoutX="15.0" layoutY="15.0" prefHeight="470.0" prefWidth="470.0" style="-fx-background-radius: 10px;" styleClass="fondoLogin" stylesheets="@estilos.css">
+         <children>
+            <TextField layoutX="181.0" layoutY="87.0" prefWidth="40.0" promptText="x1" style="-fx-border-color: black;" fx:id="x1" />
+            <TextField layoutX="181.0" layoutY="112.0" prefWidth="40.0" promptText="x2" style="-fx-border-color: black;" fx:id="x2" />
+            <TextField layoutX="181.0" layoutY="137.0" prefWidth="40.0" promptText="x3" style="-fx-border-color: black;" fx:id="x3" />
+            <TextField layoutX="181.0" layoutY="162.0" prefWidth="40.0" promptText="x4" style="-fx-border-color: black;" fx:id="x4" />
+            <TextField fx:id="f1" layoutX="221.0" layoutY="87.0" prefWidth="40.0" promptText="fi1" style="-fx-border-color: black;" />
+            <TextField fx:id="f2" layoutX="221.0" layoutY="112.0" prefWidth="40.0" promptText="fi2" style="-fx-border-color: black;" />
+            <TextField fx:id="f3" layoutX="221.0" layoutY="137.0" prefWidth="40.0" promptText="fi3" style="-fx-border-color: black;" />
+            <TextField fx:id="f4" layoutX="221.0" layoutY="162.0" prefWidth="40.0" promptText="fi4" style="-fx-border-color: black;" />
+            <TextArea fx:id="textArea" layoutX="85.0" layoutY="235.0" prefHeight="120.0" prefWidth="300.0" style="-fx-border-color: black;" />
+            <Label layoutX="137.0" layoutY="48.0" text="Ingresa el valor deseado:">
+               <font>
+                  <Font name="Bodoni MT Bold" size="15.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#750000" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+            <TextField layoutX="295.0" layoutY="44.0" prefWidth="40.0" promptText="x" style="-fx-background-color: white;" styleClass="textfields" fx:id="x" />
+            <Button layoutX="195.0" layoutY="373.0" mnemonicParsing="false" onAction="#calcular" prefHeight="32.0" prefWidth="32.0" styleClass="boton" stylesheets="@estilos.css" textAlignment="CENTER" />
+            <Button layoutX="243.0" layoutY="373.0" mnemonicParsing="false" onAction="#grafica" prefHeight="32.0" prefWidth="32.0" styleClass="botongrafica" stylesheets="@estilos.css" textAlignment="CENTER" />
+         </children>
+      </Pane>
+      <Button layoutX="434.0" layoutY="434.0" mnemonicParsing="false" onAction="#salir" prefHeight="32.0" prefWidth="32.0" styleClass="botonsalir" stylesheets="@estilos.css" />
+   </children>
+</AnchorPane>
